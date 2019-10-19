@@ -1,3 +1,29 @@
-#title {
-    color: red
+
+
+.shapes-box{
+    height: 300px;
+    width: 1200px;
+    /*
+    border-style: dashed;
+    border-size: 2px;
+    */
+    margin: auto;
+}
+
+.square{
+    height: 300px;
+    width: 300px;
+    background-color: #0066ff;
+    float: left;
+}
+
+.tri{
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #ffcc00;
+    background-color: #ffffff;
+
+    float: right;
 }
