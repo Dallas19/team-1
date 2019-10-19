@@ -7,6 +7,7 @@ function changeImage(element) {
     {
         document.getElementById("img").src = 'Img\\CFG 19 Outside 00011.jpg';
         document.getElementById("img2").src = 'Img\\CFG Inside 00100.jpg';
+
     }
 
     else if (lastFive === '00101.jpg') 
@@ -38,6 +39,17 @@ function changeImage(element) {
         document.getElementById("img2").src = 'Img\\CFG Message01110.png';
     }
 
+    else if (lastFive === '01100.png') {
+        window.location.href="tel:8328186539"
+    }
+
+    else if (lastFive === '01101.jpg') {
+        alert("IN DANGER. ACT SOON")
+    }
+
+    else if (lastFive === '01110.png') {
+        alert("IN DANGER. ACT SOON. EMAILING WIFEY")
+    }
     
 
 }
