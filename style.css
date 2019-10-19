@@ -2,10 +2,52 @@
     box-sizing: border-box;
 }
 
-.Square-1 {
-    background-color:red;
+.personal {
+    display: block; 
+    background-color:blue;
 }
 
-.Square-2 {
-    background-color:blue;
+.emergency {
+    display: block; 
+    background-color:yellow;
+}
+
+.outside {
+    display: block; 
+    background-color:green;
+}
+
+.inside {
+    display: block; 
+    background-color:brown;
+}
+
+.play {
+    display: block; 
+    background-color:lightgreen;
+}
+
+.restroom {
+    display: block; 
+    background-color: orange;
+}
+
+.now {
+    display: block; 
+    background-color: red;
+}
+
+.immenint {
+    display: block; 
+    background-color:powderblue;
+}
+
+.foodAndWater {
+    display: block; 
+    background-color: red;
+}
+
+.sleep {
+    display: block; 
+    background-color: purple;
 }
