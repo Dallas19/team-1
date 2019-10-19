@@ -27,5 +27,17 @@ function changeImage(element) {
         document.getElementById("img2").src = 'Img\\CFG 19 Sleep 01010.jpg';
     }
 
+    else if (lastFive === '00010.png') {
+        document.getElementById("img").src = 'Img\\CFG 19 Siren 01011.png';
+        document.getElementById("img2").src = 'Img\\CFG 19 911 01100.png';
+    }
+
+    else if (lastFive === '00110.jpg') {
+        console.log('in else if')
+        document.getElementById("img").src = 'Img\\CFG 19 Alarm 01101.jpg';
+        document.getElementById("img2").src = 'Img\\CFG Message01110.png';
+    }
+
+    
 
 }
