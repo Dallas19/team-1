@@ -12,8 +12,20 @@ function changeImage(element) {
     else if (lastFive === '00101.jpg') 
     {
         console.log('in else if')
-        document.getElementById("img").src = 'Img\\CFG 19 Siren 01011.png';
-        document.getElementById("img2").src = 'Img\\CFG 19 911 01100.png';
+        document.getElementById("img").src = 'Img\\CFG 19 Emergency 00010.png';
+        document.getElementById("img2").src = 'Img\\CFG 19 Imminent 00110.jpg';
     }
+
+    else if (lastFive === '00011.jpg') {
+        document.getElementById("img").src = 'Img\\CFG 19 Play 00111.jpg';
+        document.getElementById("img2").src = 'Img\\CFG 19 Restroom 01000.jpg';
+    }
+
+    else if (lastFive === '00100.jpg') {
+        console.log('in else if')
+        document.getElementById("img").src = 'Img\\CFG19 Dog food & water.jpg';
+        document.getElementById("img2").src = 'Img\\CFG 19 Sleep 01010.jpg';
+    }
+
 
 }
