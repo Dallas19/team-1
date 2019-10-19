@@ -2,7 +2,6 @@
 var controlFunction = setInterval(restart, 120000);
 
 function restart() {
-    alert("works");
     document.getElementById("img").src = 'Img\\CFG 19 Leisure00001.png';
     document.getElementById("img2").src = 'Img\\CFG19 Emergency00101.jpg';
 }
@@ -103,6 +102,8 @@ function restart() {
 
         // Call
         else if (lastFive === '01100.png') {
+            var audio = new Audio('Audio/help.mp3');
+            audio.play();
             window.location.href = "tel:8328186539"
         }
 
