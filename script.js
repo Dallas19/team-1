@@ -1,12 +1,19 @@
-function changeImage() {
+function changeImage(element) {
+    console.log();
+    var str = element.src;
+    var lastFive = str.substr(str.length - 9); 
+    console.log(lastFive);
+    if (lastFive === '00001.png') 
+    {
+        document.getElementById("img").src = 'Img\\CFG 19 Outside 00011.jpg';
+        document.getElementById("img2").src = 'Img\\CFG Inside 00100.jpg';
+    }
 
-    if (document.getElementById("img").src == 'file:///Users/fernandoprado/Desktop/team-1/img/CFG19%20Leisure%20.png') 
+    else if (lastFive === '00101.jpg') 
     {
-        document.getElementById("img").src = 'Img\\CFG19 Outside.jpg';
-        document.getElementById("img2").src = 'Img\\CFG19 Inside.jpg';
+        console.log('in else if')
+        document.getElementById("img").src = 'Img\\CFG 19 Siren 01011.png';
+        document.getElementById("img2").src = 'Img\\CFG 19 911 01100.png';
     }
-    else 
-    {
-        document.getElementById("img").src == 'file:///Users/fernandoprado/Desktop/team-1/img/CFG19%20Leisure%20.png'         
-    }
+
 }
