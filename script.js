@@ -43,7 +43,7 @@ function changeImage(element) {
         var audio = new Audio('Audio/door.mp3');
         audio.play();
 
-        document.getElementById("img").src = 'Img\\CFG19 Dog food & water.jpg';
+        document.getElementById("img").src = 'Img\\CFG 19 Food& Water 01001.jpg';
         document.getElementById("img2").src = 'Img\\CFG 19 Sleep 01010.jpg';
     }
 
@@ -91,7 +91,7 @@ function changeImage(element) {
         var audio = new Audio('Audio/snoring.mp3');
         audio.play();
 
-        alert("The dog wants to rest!")
+        alert("The dog wants to rest!");
     }
 
     
@@ -107,6 +107,7 @@ function changeImage(element) {
 
     //Email
     else if (lastFive === '01110.png') {
-        alert("IN DANGER. ACT SOON. EMAILING WIFEY")
+        alert("IN DANGER. ACT SOON. EMAILING WIFEY");
+		window.open('mailto:pradofernando2015@gmail.com?subject=High Priority!!! OPEN ASAP!&body=Come help team 1 get first place in the hackathon.');
     }
 }
