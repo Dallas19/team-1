@@ -27,3 +27,10 @@
 
     float: right;
 }
+
+.square2 {
+    height: 300px;
+    width: 300px;
+    background-color: #0066ff;
+    float: left;
+}
