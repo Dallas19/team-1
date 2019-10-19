@@ -1,13 +1,18 @@
-var images = [{src: "/Img/sleep.jpg"}, {src: "/Img/play.jpg"}];
 function changeImage() {
-
-    console.log("hello");
-    if (document.getElementById("img").src == 'Img\\CFG19 Alarm .jpg') 
+    console.log(document.getElementById("img").src);
+    console.log("hello"); 
+    var str = document.getElementById("img").src;
+    var lastFive = str.substr(str.length - 7); 
+    if (lastFive === "911.png") 
     {
-        document.getElementById("img").src = 'Img\\CFG19 911.png';
+        console.log("in if");
+        document.getElementById("img").src = 'Img\\CFG19 Alarm .jpg';
     }
     else 
     {
-        document.getElementById("img").src = 'Img\\CFG19 Alarm .jpg';
+        console.log("in else");
+        document.getElementById("img").src = 'Img\\CFG19 911.png';
     }
+
+    console.log(document.getElementById("img").src);
 }
