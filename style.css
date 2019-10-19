@@ -1,6 +1,7 @@
-square{
-    height: 300px;
-    width: 300px;
+body { 
+    background-image: linear-gradient(blue, green);
+}
+.square{
     float: left;
 }
 
@@ -25,3 +26,30 @@ square{
     background-image: url(img/CFG19\ Emergency\ image.png);
     background-size: 100%;
 } 
+
+
+#shape1 {
+    width: 50%
+}
+
+#img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-top: 200px;
+    display: block; 
+    width: 75%;
+}
+
+#shape2 {
+    width: 50%
+}
+
+#img2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    top: 50%;
+    display: block;
+    width: 75%;
+}
