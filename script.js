@@ -17,7 +17,6 @@ option1 = function() {
 option2 = function() {
     div1 = document.getElementById("square-1")
     div2 = document.getElementById("square-2")
-    console.log(div1, div2)
     if (div2.className === "emergency") {
         div1.className = "now"
         div2.className = "immenint"
